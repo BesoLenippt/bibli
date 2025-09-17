@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="236.0" prefWidth="455.0" style="-fx-background-color: #320d3e;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bibli.Registration">
+   <children>
+      <ImageView fitHeight="219.0" fitWidth="280.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="250.0" layoutY="44.0" text="Библиотека &quot;Библи&quot;" textFill="#ffd79d">
+         <font>
+            <Font name="Cambria Math" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id_login" layoutX="219.0" layoutY="75.0" prefHeight="26.0" prefWidth="108.0" promptText="Введите логин" style="-fx-border-color: #604e65; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-color: #320d3e;">
+         <font>
+            <Font name="Cambria Math" size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="id_reg" layoutX="219.0" layoutY="177.0" mnemonicParsing="false" onAction="#reg" prefHeight="29.0" prefWidth="142.0" style="-fx-background-color: #673875; -fx-border-color: #9e6fae; -fx-border-width: 1.6; -fx-border-radius: 50; -fx-background-radius: 50;" text="Зарегистрировать" textFill="#dacece">
+         <font>
+            <Font name="Cambria Math" size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="id_pass" layoutX="329.0" layoutY="140.0" prefHeight="26.0" prefWidth="108.0" promptText="Введите пароль" style="-fx-background-color: #320d3e; -fx-border-color: #604e65; -fx-border-radius: 5; -fx-border-width: 2;">
+         <font>
+            <Font name="Cambria Math" size="11.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="id_vs" layoutX="419.0" layoutY="8.0" mnemonicParsing="false" onAction="#vs" prefHeight="29.0" prefWidth="24.0" style="-fx-background-color: #673875; -fx-border-color: #9e6fae; -fx-border-width: 1.6; -fx-border-radius: 50; -fx-background-radius: 50;" text="Х" textFill="#dacece">
+         <font>
+            <Font name="Cambria Math" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="id_phone" layoutX="219.0" layoutY="140.0" prefHeight="26.0" prefWidth="108.0" promptText="Введите телефон" style="-fx-border-color: #604e65; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-color: #320d3e;">
+         <font>
+            <Font name="Cambria Math" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="id_email" layoutX="329.0" layoutY="107.0" prefHeight="26.0" prefWidth="108.0" promptText="Введите email" style="-fx-border-color: #604e65; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-color: #320d3e;">
+         <font>
+            <Font name="Cambria Math" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="id_fam" layoutX="219.0" layoutY="107.0" prefHeight="26.0" prefWidth="108.0" promptText="Введите фамилию" style="-fx-border-color: #604e65; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-color: #320d3e;">
+         <font>
+            <Font name="Cambria Math" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="id_im" layoutX="329.0" layoutY="75.0" prefHeight="26.0" prefWidth="108.0" promptText="Введите имя" style="-fx-border-color: #604e65; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-color: #320d3e;">
+         <font>
+            <Font name="Cambria Math" size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="id_naz" layoutX="362.0" layoutY="177.0" mnemonicParsing="false" onAction="#naz" prefHeight="29.0" prefWidth="75.0" style="-fx-background-color: #673875; -fx-border-color: #9e6fae; -fx-border-width: 1.6; -fx-border-radius: 50; -fx-background-radius: 50;" text="Назад" textFill="#dacece">
+         <font>
+            <Font name="Cambria Math" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
